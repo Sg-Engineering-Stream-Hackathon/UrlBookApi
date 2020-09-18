@@ -50,17 +50,14 @@ namespace DataService.Services
         public static string GetShorturl(string longurl)
         {
             string shorturl;
-            string GoogleAPIkey = "AIzaSyBOx-6YrboiToLCW69ArbvoTLavl_oWhFY";
+            string GoogleAPIkey = "AIzaSyANe_GmoAnwzouoJ1aRPAxobiVK3wRSdfA";
             var httpWebRequest = (HttpWebRequest)WebRequest.Create("https://firebasedynamiclinks.googleapis.com/v1/shortLinks?key=" + GoogleAPIkey);
             httpWebRequest.ContentType = "application/json";
             httpWebRequest.Method = "POST";
 
-            const string myFBDomain = "https://urlcatalog.page.link/?link=";
+            const string myFBDomain = "https://myappurl.page.link/?link=";
 
             string longUrl = myFBDomain + longurl;
-
-            // string longurl = "https://YOURDOMAIN.page.link/?link=https://www.YOURLONGURL.com/account?g=sdasdhaskjdh4547576aksgskjg";
-
 
             using (var streamWriter = new StreamWriter(httpWebRequest.GetRequestStream()))
             {
