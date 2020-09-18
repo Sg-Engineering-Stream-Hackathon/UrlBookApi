@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30406.217
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApiCatalog", "WebApiCatalog\WebApiCatalog.csproj", "{6F1058C1-BE85-42A3-811F-1744BF225327}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataService", "DataService\DataService.csproj", "{B1E2CD91-19E2-443C-ABA6-8405388BC8C7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FunctionalService", "FunctionalService\FunctionalService.csproj", "{422AB4B6-86E1-4D5B-9311-4E95C2F347F2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ModelService", "ModelService\ModelService.csproj", "{57DD0BE7-2260-4BDF-A76D-A7BA6B888FFF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{4603F691-6B36-45CE-9BD4-F8C6BC7ED997}"
+	ProjectSection(SolutionItems) = preProject
+		.travis.yml = .travis.yml
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UrlBookApiTest.Mock", "UrlBookApiTest.Mock\UrlBookApiTest.Mock.csproj", "{298D57B5-F2D2-4D5A-9B6D-F8C810554478}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6F1058C1-BE85-42A3-811F-1744BF225327}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F1058C1-BE85-42A3-811F-1744BF225327}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F1058C1-BE85-42A3-811F-1744BF225327}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F1058C1-BE85-42A3-811F-1744BF225327}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B1E2CD91-19E2-443C-ABA6-8405388BC8C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1E2CD91-19E2-443C-ABA6-8405388BC8C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1E2CD91-19E2-443C-ABA6-8405388BC8C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1E2CD91-19E2-443C-ABA6-8405388BC8C7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{422AB4B6-86E1-4D5B-9311-4E95C2F347F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{422AB4B6-86E1-4D5B-9311-4E95C2F347F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{422AB4B6-86E1-4D5B-9311-4E95C2F347F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{422AB4B6-86E1-4D5B-9311-4E95C2F347F2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{57DD0BE7-2260-4BDF-A76D-A7BA6B888FFF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57DD0BE7-2260-4BDF-A76D-A7BA6B888FFF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57DD0BE7-2260-4BDF-A76D-A7BA6B888FFF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57DD0BE7-2260-4BDF-A76D-A7BA6B888FFF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{298D57B5-F2D2-4D5A-9B6D-F8C810554478}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{298D57B5-F2D2-4D5A-9B6D-F8C810554478}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{298D57B5-F2D2-4D5A-9B6D-F8C810554478}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{298D57B5-F2D2-4D5A-9B6D-F8C810554478}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {27F47A76-94B6-47AA-B772-185A8FEDBBFF}
+	EndGlobalSection
+EndGlobal
